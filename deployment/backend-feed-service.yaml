@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: backend-feed
+    app: backend-feed-svc
   name: backend-feed
   namespace: default
 spec:

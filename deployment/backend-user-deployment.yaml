@@ -19,6 +19,10 @@ spec:
       - image: youssefamr/udagram-api-user:latest
         name: backend-user
         resources:
+          limits:
+            cpu: 500m
+          requests:
+            cpu: 200m
         envFrom:
         - configMapRef:
             name: env-config

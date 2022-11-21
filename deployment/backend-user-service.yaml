@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-      app: backend-user
+      app: backend-user-svc
   name: backend-user
   namespace: default
 spec:
